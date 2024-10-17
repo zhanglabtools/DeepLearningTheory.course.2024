@@ -6,6 +6,7 @@ In recent years, deep learning has made great progress. It is widely used in man
 This course is closely around the latest development of deep learning theory. It intends to teach mathematical models, theories, algorithms and numerical experiments related to a series of basic problems from multiple perspectives of deep learning theory. This course is designed for doctoral, postgraduate and senior undergraduate students in all majors, who have basic knowledge of machine learning and deep learning.
 
 
+
 The topics and the corresponding material are as follows:
   1. **Introduction to Deep Learning**  [material](#Introduction-to-deep-learning) [slides](./course_files/Lecture1.OverviewofDeepLearning.pdf)
   2. **Algorithmic Regularization** [material](#Algorithmic-Regularization) [slides](./course_files/Lecture2.AlgortihmicRegularization.pdf)
@@ -22,6 +23,9 @@ The topics and the corresponding material are as follows:
 ##  Prerequisites
 
 Mathematical Analysis, Linear Algebra, Mathematical Statistics, Numerical Optimization, Matrix Theory, Fundamentals of Machine Learning and Deep Learning
+
+## Previous Versions
+The previous version of this course was taught in 2021. You can find it on [GitHub](https://github.com/zhanglabtools/DeepLearningTheory.course).
 
 ## Introduction to Deep Learning
 
