@@ -25,7 +25,7 @@ The topics and the corresponding material are as follows:
 Mathematical Analysis, Linear Algebra, Mathematical Statistics, Numerical Optimization, Matrix Theory, Fundamentals of Machine Learning and Deep Learning
 
 ## Previous Versions
-The previous version of this course was taught in 2021. You can find it on [GitHub](https://github.com/zhanglabtools/DeepLearningTheory.course).
+The previous version of this course was taught in 2021. You can find it on [Deep Learning Theory (2021)](https://github.com/zhanglabtools/DeepLearningTheory.course).
 
 ## Introduction to Deep Learning
 
