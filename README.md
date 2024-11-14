@@ -13,12 +13,18 @@ The topics and the corresponding material are as follows:
   3. **Inductive Biases due to Dropout** [material](#Inductive-Biases-due-to-Dropout) [slides](./course_files/Lecture3.InductiveBiasesduetoDropout.pdf)
   4. **Tractable Landscapes for Nonconvex Optimization** [material](#Tractable-Landscapes-for-Nonconvex-Optimization) [slides](./course_files/Lecture4.TractableLandscapes.pdf)
   5. **Multilayer Convolutional Sparse Coding** [material](#Multilayer-Convolutional-Sparse-Coding) [slides](./course_files/Lecture5.FromSparseCodingtoDeepLearning.pdf)
-  6. **Vulnerability of Deep Neural Networks** [material](#Vulnerability-of-Deep-Neural-Networks) [slides](./course_files/Lecture6.VulnerabilityofDeepNeuralNetworks.pdf)
-  7. **Information Bottleneck Theory** [material](#Information-Bottleneck-Theory) [slides](./course_files/Lecture7.InformationBottleneckTheoryofDNNs.pdf)
-  8. **Neural Tangent Kernel** [material](#Neural-Tangent-Kernel) [slides](./course_files/Lecture8.NeuralTangentKernel.pdf)
-  9. **Dynamic System and Deep Learning** [material](#Dynamic-System-and-Deep-Learning) [slides](./course_files/Lecture9.DynamicSystemandDeepLearning.pdf)
-  10. **Dynamic View of Deep Learning** [material](#Dynamic-View-of-Deep-Learning) [slides](./course_files/Lecture10.DynamicViewofDeepLearning.pdf)
-  11. **Generative Model** [material](#Generative-Model) [slides1](./course_files/Lecture11.GenerativeModels-I.pdf) [slides2](./course_files/Lecture12.GenerativeModels-II.pdf)
+  6. to be updated...
+[//]: # (  6. **Vulnerability of Deep Neural Networks** [material]&#40;#Vulnerability-of-Deep-Neural-Networks&#41; [slides]&#40;./course_files/Lecture6.VulnerabilityofDeepNeuralNetworks.pdf&#41;)
+
+[//]: # (  7. **Information Bottleneck Theory** [material]&#40;#Information-Bottleneck-Theory&#41; [slides]&#40;./course_files/Lecture7.InformationBottleneckTheoryofDNNs.pdf&#41;)
+
+[//]: # (  8. **Neural Tangent Kernel** [material]&#40;#Neural-Tangent-Kernel&#41; [slides]&#40;./course_files/Lecture8.NeuralTangentKernel.pdf&#41;)
+
+[//]: # (  9. **Dynamic System and Deep Learning** [material]&#40;#Dynamic-System-and-Deep-Learning&#41; [slides]&#40;./course_files/Lecture9.DynamicSystemandDeepLearning.pdf&#41;)
+
+[//]: # (  10. **Dynamic View of Deep Learning** [material]&#40;#Dynamic-View-of-Deep-Learning&#41; [slides]&#40;./course_files/Lecture10.DynamicViewofDeepLearning.pdf&#41;)
+
+[//]: # (  11. **Generative Model** [material]&#40;#Generative-Model&#41; [slides1]&#40;./course_files/Lecture11.GenerativeModels-I.pdf&#41; [slides2]&#40;./course_files/Lecture12.GenerativeModels-II.pdf&#41;)
 
 ##  Prerequisites
 
