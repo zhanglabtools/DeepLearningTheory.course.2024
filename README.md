@@ -83,7 +83,7 @@ The previous version of this course was taught in 2021. You can find it on [Deep
 + Ainsworth, S. K., Hayase, J., and Srinivasa, S. (2022). Git re-basin: Merging models modulo permutation symmetries. arXiv preprint arXiv:2209.04836.
 + Qu, X. and Horvath, S. (2024). Rethink model re-basin and the linear mode connectivity. arXiv preprint arXiv:2402.05966.
 
-## From Sparse Coding to DeepLearning
+## From Sparse Coding to Deep Learning
 
 ### Key papers
 + Zhang, Z., & Zhang, S. (2021). Towards understanding residual and dilated dense neural networks via convolutional sparse coding. National Science Review, 8(3), nwaa159.
