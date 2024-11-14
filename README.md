@@ -93,7 +93,7 @@ The previous version of this course was taught in 2021. You can find it on [Deep
 + Zeiler, M., Krishnan, D., Taylor, G., & Fergus, R. (2011). Deconvolutional Networks for Feature Learning. In Comput. Vis. Pattern Recognit.(CVPR), 2010 IEEE Conf (pp. 2528-2535).
 + He, K., Zhang, X., Ren, S., & Sun, J. (2016). Deep residual learning for image recognition. In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 770-778).
 + Pelt, D. M., & Sethian, J. A. (2018). A mixed-scale dense convolutional neural network for image analysis. Proceedings of the National Academy of Sciences, 115(2), 254-259.
-+ Mingyang Li, Pengyuan Zhai, Shengbang Tong, Xingjian Gao, Shao-Lun Huang, Zhihui Zhu, Chong You, Yi Ma, et al., Revisiting sparse convolutional model for visual recognition, Advances in Neural Information Processing Systems 35 (2022), 10492–10504.
++ Mingyang Li, Pengyuan Zhai, Shengbang Tong, Xingjian Gao, Shao-Lun Huang, Zhihui Zhu, Chong You, Yi Ma, et al. (2022). Revisiting sparse convolutional model for visual recognition, Advances in Neural Information Processing Systems 35. 10492–10504.
 
 [//]: # (## Vulnerability of Deep Neural Networks)
 
