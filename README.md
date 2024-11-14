@@ -50,15 +50,15 @@ The previous version of this course was taught in 2021. You can find it on [Deep
 ## Algorithmic Regularization
 
 ### Key papers
-+ Sanjeev Arora, Nadav Cohen, Wei Hu, and Yuping Luo, Implicit regularization in deep matrix factorization, Advances in Neural Information Processing Systems 32 (2019), 7413–7424.
-+ Sanjeev Arora, Zhiyuan Li, and Abhishek Panigrahi, Understanding gradient descent on the edge of stability in deep learning, International Conference on Machine Learning, PMLR, 2022, pp. 948–1024.
-+ Jonathon Byrd and Zachary Lipton, What is the effect of importance weighting in deep learning?, International Conference on Machine Learning, PMLR, 2019, pp. 872–881.
-+ Jeremy Cohen, Simran Kaur, Yuanzhi Li, J Zico Kolter, and Ameet Talwalkar, Gradient descent on neural networks typically occurs at the edge of stability, International Conference on Learning Representations, 2021.
-+ Suriya Gunasekar, Jason Lee, Daniel Soudry, and Nathan Srebro, Characterizing implicit bias in terms of optimization geometry, International Conference on Machine Learning, PMLR, 2018, pp. 1832–1841.
-+ Suriya Gunasekar, Blake Woodworth, Srinadh Bhojanapalli, Behnam Neyshabur, and Nathan Srebro, Implicit regularization in matrix factorization, 2018 Information Theory and Applications Workshop (ITA), IEEE, 2018, pp. 1–10.
-+ Daniel Soudry, Elad Hoffer, Mor Shpigel Nacson, Suriya Gunasekar, and Nathan Srebro, The implicit bias of gradient descent on separable data, The Journal of Machine Learning Research 19 (2018), no. 1, 2822–2878.
-+ Lei Wu and Weijie J Su, The implicit regularization of dynamical stability in stochastic gradient descent, International Conference on Machine Learning, PMLR, 2023, pp. 37656–37684.
-+ Da Xu, Yuting Ye, and Chuanwei Ruan, Understanding the role of importance weighting for deep learning, International Conference on Learning Representations, 2021.
++ Sanjeev Arora, Nadav Cohen, Wei Hu, and Yuping Luo. (2019). Implicit regularization in deep matrix factorization, Advances in Neural Information Processing Systems 32 , 7413–7424.
++ Sanjeev Arora, Zhiyuan Li, and Abhishek Panigrahi. (2022). Understanding gradient descent on the edge of stability in deep learning, International Conference on Machine Learning, PMLR, pp. 948–1024.
++ Jonathon Byrd and Zachary Lipton.(2019)  What is the effect of importance weighting in deep learning? International Conference on Machine Learning, PMLR, pp. 872–881.
++ Jeremy Cohen, Simran Kaur, Yuanzhi Li, J Zico Kolter, and Ameet Talwalkar. (2021). Gradient descent on neural networks typically occurs at the edge of stability, International Conference on Learning Representations.
++ Suriya Gunasekar, Jason Lee, Daniel Soudry, and Nathan Srebro. (2018). Characterizing implicit bias in terms of optimization geometry, International Conference on Machine Learning, PMLR, 2018, pp. 1832–1841.
++ Suriya Gunasekar, Blake Woodworth, Srinadh Bhojanapalli, Behnam Neyshabur and Nathan Srebro. (2018). Implicit regularization in matrix factorization, 2018 Information Theory and Applications Workshop (ITA), IEEE, pp. 1–10.
++ Daniel Soudry, Elad Hoffer, Mor Shpigel Nacson, Suriya Gunasekar, and Nathan Srebro. (2018). The implicit bias of gradient descent on separable data. The Journal of Machine Learning Research 19, no. 1, 2822–2878.
++ Lei Wu and Weijie J Su. (2023). The implicit regularization of dynamical stability in stochastic gradient descent, International Conference on Machine Learning, PMLR, pp. 37656–37684.
++ Da Xu, Yuting Ye, and Chuanwei Ruan. (2021). Understanding the role of importance weighting for deep learning, International Conference on Learning Representations.
 
 ## Inductive Biases due to Dropout
 
