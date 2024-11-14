@@ -12,7 +12,7 @@ The topics and the corresponding material are as follows:
   2. **Algorithmic Regularization** [material](#Algorithmic-Regularization) [slides](./course_files/Lecture2.AlgorithmicRegularization.pdf)
   3. **Inductive Biases due to Dropout** [material](#Inductive-Biases-due-to-Dropout) [slides](./course_files/Lecture3.InductiveBiasesduetoDropout.pdf)
   4. **Tractable Landscapes for Nonconvex Optimization** [material](#Tractable-Landscapes-for-Nonconvex-Optimization) [slides](./course_files/Lecture4.TractableLandscapes.pdf)
-  5. **From Sparse Coding to Deep Learning** [material](#Multilayer-Convolutional-Sparse-Coding) [slides](./course_files/Lecture5.FromSparseCodingtoDeepLearning.pdf)
+  5. **From Sparse Coding to Deep Learning** [material](#From-Sparse-Coding-to-Deep-Learning) [slides](./course_files/Lecture5.FromSparseCodingtoDeepLearning.pdf)
   6. **To be updated...**
 
 [//]: # (  6. **Vulnerability of Deep Neural Networks** [material]&#40;#Vulnerability-of-Deep-Neural-Networks&#41; [slides]&#40;./course_files/Lecture6.VulnerabilityofDeepNeuralNetworks.pdf&#41;)
