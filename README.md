@@ -8,11 +8,11 @@ This course is closely around the latest development of deep learning theory. It
 
 
 The topics and the corresponding material are as follows:
-  1. **Introduction to Deep Learning**  [material](#Introduction-to-deep-learning) [slides](./course_files/Lecture1.OverviewofDeepLearning.pdf)
-  2. **Algorithmic Regularization** [material](#Algorithmic-Regularization) [slides](./course_files/Lecture2.AlgortihmicRegularization.pdf)
+  1. **Introduction to Deep Learning**  [material](#Introduction-to-deep-learning) [slides](./course_files/Lecture1.Overviewofdeeplearning.pdf)
+  2. **Algorithmic Regularization** [material](#Algorithmic-Regularization) [slides](./course_files/Lecture2.AlgorithmicRegularization.pdf)
   3. **Inductive Biases due to Dropout** [material](#Inductive-Biases-due-to-Dropout) [slides](./course_files/Lecture3.InductiveBiasesduetoDropout.pdf)
   4. **Tractable Landscapes for Nonconvex Optimization** [material](#Tractable-Landscapes-for-Nonconvex-Optimization) [slides](./course_files/Lecture4.TractableLandscapes.pdf)
-  5. **Multilayer Convolutional Sparse Coding** [material](#Multilayer-Convolutional-Sparse-Coding) [slides](./course_files/Lecture5.ML-CSC.pdf)
+  5. **Multilayer Convolutional Sparse Coding** [material](#Multilayer-Convolutional-Sparse-Coding) [slides](./course_files/Lecture5.FromSparseCodingtoDeepLearning.pdf)
   6. **Vulnerability of Deep Neural Networks** [material](#Vulnerability-of-Deep-Neural-Networks) [slides](./course_files/Lecture6.VulnerabilityofDeepNeuralNetworks.pdf)
   7. **Information Bottleneck Theory** [material](#Information-Bottleneck-Theory) [slides](./course_files/Lecture7.InformationBottleneckTheoryofDNNs.pdf)
   8. **Neural Tangent Kernel** [material](#Neural-Tangent-Kernel) [slides](./course_files/Lecture8.NeuralTangentKernel.pdf)
@@ -43,35 +43,40 @@ The previous version of this course was taught in 2021. You can find it on [Deep
 ## Algorithmic Regularization
 
 ### Key papers
-+ Arora, S., Cohen, N., Hu, W., & Luo, Y. (2019). Implicit regularization in deep matrix factorization. Advances in Neural Information Processing Systems, 32, 7413-7424.
-+ Byrd, J., & Lipton, Z. (2019, May). What is the effect of importance weighting in deep learning?. In International Conference on Machine Learning (pp. 872-881). PMLR.
-+ Gunasekar, S., Lee, J., Soudry, D., & Srebro, N. (2018, July). Characterizing implicit bias in terms of optimization geometry. In International Conference on Machine Learning (pp. 1832-1841). PMLR.
-+ Gunasekar, S., Woodworth, B., Bhojanapalli, S., Neyshabur, B., & Srebro, N. (2018, February). Implicit regularization in matrix factorization. In 2018 Information Theory and Applications Workshop (ITA) (pp. 1-10). IEEE.
-+ Soudry, D., Hoffer, E., Nacson, M. S., Gunasekar, S., & Srebro, N. (2018). The implicit bias of gradient descent on separable data. The Journal of Machine Learning Research, 19(1), 2822-2878.
-+ Xu, D., Ye, Y., & Ruan, C. (2021). Understanding the role of importance weighting for deep learning. arXiv preprint arXiv:2103.15209.
-
++ Sanjeev Arora, Nadav Cohen, Wei Hu, and Yuping Luo, Implicit regularization in deep matrix factorization, Advances in Neural Information Processing Systems 32 (2019), 7413–7424.
++ Sanjeev Arora, Zhiyuan Li, and Abhishek Panigrahi, Understanding gradient descent on the edge of stability in deep learning, International Conference on Machine Learning, PMLR, 2022, pp. 948–1024.
++ Jonathon Byrd and Zachary Lipton, What is the effect of importance weighting in deep learning?, International Conference on Machine Learning, PMLR, 2019, pp. 872–881.
++ Jeremy Cohen, Simran Kaur, Yuanzhi Li, J Zico Kolter, and Ameet Talwalkar, Gradient descent on neural networks typically occurs at the edge of stability, International Conference on Learning Representations, 2021.
++ Suriya Gunasekar, Jason Lee, Daniel Soudry, and Nathan Srebro, Characterizing implicit bias in terms of optimization geometry, International Conference on Machine Learning, PMLR, 2018, pp. 1832–1841.
++ Suriya Gunasekar, Blake Woodworth, Srinadh Bhojanapalli, Behnam Neyshabur, and Nathan Srebro, Implicit regularization in matrix factorization, 2018 Information Theory and Applications Workshop (ITA), IEEE, 2018, pp. 1–10.
++ Daniel Soudry, Elad Hoffer, Mor Shpigel Nacson, Suriya Gunasekar, and Nathan Srebro, The implicit bias of gradient descent on separable data, The Journal of Machine Learning Research 19 (2018), no. 1, 2822–2878.
++ Lei Wu and Weijie J Su, The implicit regularization of dynamical stability in stochastic gradient descent, International Conference on Machine Learning, PMLR, 2023, pp. 37656–37684.
++ Da Xu, Yuting Ye, and Chuanwei Ruan, Understanding the role of importance weighting for deep learning, International Conference on Learning Representations, 2021.
 
 ## Inductive Biases due to Dropout
 
 ### Key papers
-+ Srivastava, N., Hinton, G., Krizhevsky, A., Sutskever, I., & Salakhutdinov, R. (2014). Dropout: a simple way to prevent neural networks from overfitting. The journal of machine learning research, 15(1), 1929-1958.
-+ Arora, R., Bartlett, P., Mianjy, P., & Srebro, N. (2021, July). Dropout: Explicit forms and capacity control. In International Conference on Machine Learning (pp. 351-361). PMLR.
-+ Mianjy, P., Arora, R., & Vidal, R. (2018, July). On the implicit bias of dropout. In International Conference on Machine Learning (pp. 3540-3548). PMLR.
-+ Baldi, P., & Sadowski, P. J. (2013). Understanding dropout. Advances in neural information processing systems, 26, 2814-2822.
-+ Wager, S., Wang, S., & Liang, P. S. (2013). Dropout training as adaptive regularization. Advances in neural information processing systems, 26, 351-359.
-+ Cavazza, J., Morerio, P., Haeffele, B., Lane, C., Murino, V., & Vidal, R. (2018, March). Dropout as a low-rank regularizer for matrix factorization. In International Conference on Artificial Intelligence and Statistics (pp. 435-444). PMLR.
++ Baldi, P. and Hornik, K. (1989). Neural networks and principal component analysis: Learning from examples without local minima. Neural networks, 2(1):53–58.
++ Caruana, R., Lawrence, S., and Giles, L. (2001). Overfitting in neural nets: Backpropagation, conjugate gradient, and early stopping. Advances in neural information processing systems, pages 402–408.
++ Srivastava, N., Hinton, G., Krizhevsky, A., Sutskever, I., and Salakhutdinov, R. (2014). Dropout: A simple way to prevent neural networks from overfitting. Journal of Machine Learning Research, 15(56):1929–1958.
++ Arora, R., Bartlett, P., Mianjy, P., and Srebro, N. (2021). Dropout: Explicit forms and capacity control. In International Conference on Machine Learning, pages 351–361. PMLR.
++ Mianjy, P., Arora, R., and Vidal, R. (2018). On the implicit bias of dropout. In International Conference on Machine Learning, pages 3540–3548. PMLR.
++ Xu, Z.-Q. J., Zhang, Y., and Luo, T. (2024). Overview frequency principle/spectral bias in deep learning. Communications on Applied Mathematics and Computation, pages 1–38.
++ Zhou, H., Qixuan, Z., Luo, T., Zhang, Y., and Xu, Z.-Q. (2022). Towards understanding the condensation of neural networks at initial training. Advances in Neural Information Processing Systems, 35:2184–2196.
 
 ## Tractable Landscapes for Nonconvex Optimization 
 
 ### Key papers
-+ Du, S. S., Zhai, X., Poczos, B., & Singh, A. (2018, September). Gradient Descent Provably Optimizes Over-parameterized Neural Networks. In International Conference on Learning Representations.
-+ Ge, R., Huang, F., Jin, C., & Yuan, Y. (2015, June). Escaping from saddle points—online stochastic gradient for tensor decomposition. In Conference on learning theory (pp. 797-842). PMLR.
-+ Ge, R., Lee, J. D., & Ma, T. (2016, December). Matrix completion has no spurious local minimum. In Proceedings of the 30th International Conference on Neural Information Processing Systems (pp. 2981-2989).
-+ Ge, R., Lee, J. D., & Ma, T. (2017). Learning one-hidden-layer neural networks with landscape design. arXiv preprint arXiv:1711.00501.
-+ Hardt, M., Ma, T., & Recht, B. (2018). Gradient Descent Learns Linear Dynamical Systems. Journal of Machine Learning Research, 19, 1-44.
-+ He, F., Wang, B., & Tao, D. (2019, September). Piecewise linear activations substantially shape the loss surfaces of neural networks. In International Conference on Learning Representations.
 
-## Multilayer Convolutional Sparse Coding
++ Ge, R., Lee, J. D., and Ma, T. (2016). Matrix completion has no spurious local minimum. In Lee, D., Sugiyama, M., Luxburg, U., Guyon, I., and Garnett, R., editors, Advances in Neural Information Processing Systems, volume 29. Curran Associates, Inc.
++ Ge, R., Lee, J. D., and Ma, T. (2017). Learning one-hidden-layer neural networks with landscape design. arXiv preprint arXiv:1711.00501.
++ Garipov, T., Izmailov, P., Podoprikhin, D., Vetrov, D. P., and Wilson, A. G. (2018). Loss surfaces, mode connectivity, and fast ensembling of dnns. Advances in neural information processing systems, 31.
++ Frankle, J., Dziugaite, G. K., Roy, D., and Carbin, M. (2020). Linear mode connectivity and the lottery ticket hypothesis. In International Conference on Machine Learning, pages 3259–3269. PMLR.
++ Entezari, R., Sedghi, H., Saukh, O., and Neyshabur, B. (2021). The role of permutation invariance in linear mode connectivity of neural networks. arXiv preprint arXiv:2110.06296.
++ Ainsworth, S. K., Hayase, J., and Srinivasa, S. (2022). Git re-basin: Merging models modulo permutation symmetries. arXiv preprint arXiv:2209.04836.
++ Qu, X. and Horvath, S. (2024). Rethink model re-basin and the linear mode connectivity. arXiv preprint arXiv:2402.05966.
+
+## From Sparse Coding to DeepLearning
 
 ### Key papers
 + Zhang, Z., & Zhang, S. (2021). Towards understanding residual and dilated dense neural networks via convolutional sparse coding. National Science Review, 8(3), nwaa159.
@@ -81,68 +86,115 @@ The previous version of this course was taught in 2021. You can find it on [Deep
 + Zeiler, M., Krishnan, D., Taylor, G., & Fergus, R. (2011). Deconvolutional Networks for Feature Learning. In Comput. Vis. Pattern Recognit.(CVPR), 2010 IEEE Conf (pp. 2528-2535).
 + He, K., Zhang, X., Ren, S., & Sun, J. (2016). Deep residual learning for image recognition. In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 770-778).
 + Pelt, D. M., & Sethian, J. A. (2018). A mixed-scale dense convolutional neural network for image analysis. Proceedings of the National Academy of Sciences, 115(2), 254-259.
++ Mingyang Li, Pengyuan Zhai, Shengbang Tong, Xingjian Gao, Shao-Lun Huang, Zhihui Zhu, Chong You, Yi Ma, et al., Revisiting sparse convolutional model for visual recognition, Advances in Neural Information Processing Systems 35 (2022), 10492–10504.
 
+[//]: # (## Vulnerability of Deep Neural Networks)
 
-## Vulnerability of Deep Neural Networks
+[//]: # ()
+[//]: # (### Key papers)
 
-### Key papers
-+ Fawzi, A., Fawzi, H., & Fawzi, O. (2018). Adversarial vulnerability for any classifier. arXiv preprint arXiv:1802.08686.
-+ Shafahi, A., Huang, W. R., Studer, C., Feizi, S., & Goldstein, T. (2018). Are adversarial examples inevitable?. arXiv preprint arXiv:1809.02104.
-+ Li, J., Ji, R., Liu, H., Liu, J., Zhong, B., Deng, C., & Tian, Q. (2020). Projection & probability-driven black-box attack. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 362-371).
-+ Li, Y., Li, L., Wang, L., Zhang, T., & Gong, B. (2019, May). Nattack: Learning the distributions of adversarial examples for an improved black-box attack on deep neural networks. In International Conference on Machine Learning (pp. 3866-3876). PMLR.
-+ Wu, A., Han, Y., Zhang, Q., & Kuang, X. (2019, July). Untargeted adversarial attack via expanding the semantic gap. In 2019 IEEE International Conference on Multimedia and Expo (ICME) (pp. 514-519). IEEE.
-+ Rathore, P., Basak, A., Nistala, S. H., & Runkana, V. (2020, July). Untargeted, Targeted and Universal Adversarial Attacks and Defenses on Time Series. In 2020 International Joint Conference on Neural Networks (IJCNN) (pp. 1-8). IEEE.
+[//]: # (+ Fawzi, A., Fawzi, H., & Fawzi, O. &#40;2018&#41;. Adversarial vulnerability for any classifier. arXiv preprint arXiv:1802.08686.)
 
-## Information Bottleneck Theory
+[//]: # (+ Shafahi, A., Huang, W. R., Studer, C., Feizi, S., & Goldstein, T. &#40;2018&#41;. Are adversarial examples inevitable?. arXiv preprint arXiv:1809.02104.)
 
-### Key papers
-+ Shwartz-Ziv, R., & Tishby, N. (2017). Opening the black box of deep neural networks via information. arXiv preprint arXiv:1703.00810.
-+ Tishby, N., Pereira, F. C., & Bialek, W. (2000). The information bottleneck method. arXiv preprint physics/0004057.
-+ Tishby, N., & Zaslavsky, N. (2015, April). Deep learning and the information bottleneck principle. In 2015 IEEE Information Theory Workshop (ITW) (pp. 1-5). IEEE.
-+ Saxe, A. M., Bansal, Y., Dapello, J., Advani, M., Kolchinsky, A., Tracey, B. D., & Cox, D. D. (2019). On the information bottleneck theory of deep learning. Journal of Statistical Mechanics: Theory and Experiment, 2019(12), 124020.
-+ Kolchinsky, A., Tracey, B. D., & Wolpert, D. H. (2019). Nonlinear information bottleneck. Entropy, 21(12), 1181.
-+ Achille, A., & Soatto, S. (2018). Information dropout: Learning optimal representations through noisy computation. IEEE transactions on pattern analysis and machine intelligence, 40(12), 2897-2905.
-+ Alemi, A. A., Fischer, I., Dillon, J. V., & Murphy, K. (2016). Deep variational information bottleneck. arXiv preprint arXiv:1612.00410.
+[//]: # (+ Li, J., Ji, R., Liu, H., Liu, J., Zhong, B., Deng, C., & Tian, Q. &#40;2020&#41;. Projection & probability-driven black-box attack. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition &#40;pp. 362-371&#41;.)
 
-## Neural Tangent Kernel
+[//]: # (+ Li, Y., Li, L., Wang, L., Zhang, T., & Gong, B. &#40;2019, May&#41;. Nattack: Learning the distributions of adversarial examples for an improved black-box attack on deep neural networks. In International Conference on Machine Learning &#40;pp. 3866-3876&#41;. PMLR.)
 
-### Key papers
-+ Jacot, A., Gabriel, F., & Hongler, C. (2018). Neural tangent kernel: Convergence and generalization in neural networks. arXiv preprint arXiv:1806.07572.
-+ Lee, J., Xiao, L., Schoenholz, S., Bahri, Y., Novak, R., Sohl-Dickstein, J., & Pennington, J. (2019). Wide neural networks of any depth evolve as linear models under gradient descent. Advances in neural information processing systems, 32, 8572-8583.
-+ Arora, S., Du, S., Hu, W., Li, Z., & Wang, R. (2019, May). Fine-grained analysis of optimization and generalization for overparameterized two-layer neural networks. In International Conference on Machine Learning (pp. 322-332). PMLR.
-+ Arora, S., Du, S. S., Hu, W., Li, Z., Salakhutdinov, R., & Wang, R. (2019). On exact computation with an infinitely wide neural net. arXiv preprint arXiv:1904.11955.
-+ Hu, W., Li, Z., & Yu, D. (2019). Simple and effective regularization methods for training on noisily labeled data with generalization guarantee. arXiv preprint arXiv:1905.11368.
+[//]: # (+ Wu, A., Han, Y., Zhang, Q., & Kuang, X. &#40;2019, July&#41;. Untargeted adversarial attack via expanding the semantic gap. In 2019 IEEE International Conference on Multimedia and Expo &#40;ICME&#41; &#40;pp. 514-519&#41;. IEEE.)
 
-## Dynamic System and Deep Learning
+[//]: # (+ Rathore, P., Basak, A., Nistala, S. H., & Runkana, V. &#40;2020, July&#41;. Untargeted, Targeted and Universal Adversarial Attacks and Defenses on Time Series. In 2020 International Joint Conference on Neural Networks &#40;IJCNN&#41; &#40;pp. 1-8&#41;. IEEE.)
 
-### Key papers
-+ Weinan, E. (2017). A proposal on machine learning via dynamical systems. Communications in Mathematics and Statistics, 5(1), 1-11.
-+ Li, Q., Chen, L., & Tai, C. (2017). Maximum principle based algorithms for deep learning. arXiv preprint arXiv:1710.09513.
-+ Parpas, P., & Muir, C. (2019). Predict globally, correct locally: Parallel-in-time optimal control of neural networks. arXiv preprint arXiv:1902.02542.
-+ Haber, E., & Ruthotto, L. (2017). Stable architectures for deep neural networks. Inverse problems, 34(1), 014004.
-+ Lu, Y., Zhong, A., Li, Q., & Dong, B. (2018, July). Beyond finite layer neural networks: Bridging deep architectures and numerical differential equations. In International Conference on Machine Learning (pp. 3276-3285). PMLR.
-+ Li, Z., & Shi, Z. (2017). Deep residual learning and pdes on manifold. arXiv preprint arXiv:1708.05115.
+[//]: # ()
+[//]: # (## Information Bottleneck Theory)
 
+[//]: # ()
+[//]: # (### Key papers)
 
-## Dynamic View of Deep Learning
+[//]: # (+ Shwartz-Ziv, R., & Tishby, N. &#40;2017&#41;. Opening the black box of deep neural networks via information. arXiv preprint arXiv:1703.00810.)
 
-### Key papers
-+ Chen, R. T., Rubanova, Y., Bettencourt, J., & Duvenaud, D. (2018). Neural ordinary differential equations. arXiv preprint arXiv:1806.07366.
-+ Yan, H., Du, J., Tan, V. Y., & Feng, J. (2019). On robustness of neural ordinary differential equations. arXiv preprint arXiv:1910.05513.
-+ Gai, K., & Zhang, S. (2021). A Mathematical Principle of Deep Learning: Learn the Geodesic Curve in the Wasserstein Space. arXiv preprint arXiv:2102.09235.
-+ Thorpe, M., & van Gennip, Y. (2018). Deep limits of residual neural networks. arXiv preprint arXiv:1810.11741.
-+ Lu, Y., Ma, C., Lu, Y., Lu, J., & Ying, L. (2020, November). A mean field analysis of deep ResNet and beyond: Towards provably optimization via overparameterization from depth. In International Conference on Machine Learning (pp. 6426-6436). PMLR.
+[//]: # (+ Tishby, N., Pereira, F. C., & Bialek, W. &#40;2000&#41;. The information bottleneck method. arXiv preprint physics/0004057.)
 
-## Generative Model
+[//]: # (+ Tishby, N., & Zaslavsky, N. &#40;2015, April&#41;. Deep learning and the information bottleneck principle. In 2015 IEEE Information Theory Workshop &#40;ITW&#41; &#40;pp. 1-5&#41;. IEEE.)
 
-### Key papers
-+ Kingma, D. P., & Welling, M. (2013). Auto-encoding variational bayes. arXiv preprint arXiv:1312.6114.
-+ Goodfellow, I., Pouget-Abadie, J., Mirza, M., Xu, B., Warde-Farley, D., Ozair, S., ... & Bengio, Y. (2014). Generative adversarial nets. Advances in neural information processing systems, 27.
-+ Arjovsky, M., & Bottou, L. (2017). Towards principled methods for training generative adversarial networks. arXiv preprint arXiv:1701.04862.
-+ An, D., Guo, Y., Zhang, M., Qi, X., Lei, N., & Gu, X. (2020, August). AE-OT-GAN: Training GANs from data specific latent distribution. In European Conference on Computer Vision (pp. 548-564). Springer, Cham.
-+ Arjovsky, M., Chintala, S., & Bottou, L. (2017, July). Wasserstein generative adversarial networks. In International conference on machine learning (pp. 214-223). PMLR.
-+ Tolstikhin, I., Bousquet, O., Gelly, S., & Schoelkopf, B. (2017). Wasserstein auto-encoders. arXiv preprint arXiv:1711.01558.
-+ Lei, N., An, D., Guo, Y., Su, K., Liu, S., Luo, Z., ... & Gu, X. (2020). A geometric understanding of deep learning. Engineering, 6(3), 361-374.
+[//]: # (+ Saxe, A. M., Bansal, Y., Dapello, J., Advani, M., Kolchinsky, A., Tracey, B. D., & Cox, D. D. &#40;2019&#41;. On the information bottleneck theory of deep learning. Journal of Statistical Mechanics: Theory and Experiment, 2019&#40;12&#41;, 124020.)
+
+[//]: # (+ Kolchinsky, A., Tracey, B. D., & Wolpert, D. H. &#40;2019&#41;. Nonlinear information bottleneck. Entropy, 21&#40;12&#41;, 1181.)
+
+[//]: # (+ Achille, A., & Soatto, S. &#40;2018&#41;. Information dropout: Learning optimal representations through noisy computation. IEEE transactions on pattern analysis and machine intelligence, 40&#40;12&#41;, 2897-2905.)
+
+[//]: # (+ Alemi, A. A., Fischer, I., Dillon, J. V., & Murphy, K. &#40;2016&#41;. Deep variational information bottleneck. arXiv preprint arXiv:1612.00410.)
+
+[//]: # ()
+[//]: # (## Neural Tangent Kernel)
+
+[//]: # ()
+[//]: # (### Key papers)
+
+[//]: # (+ Jacot, A., Gabriel, F., & Hongler, C. &#40;2018&#41;. Neural tangent kernel: Convergence and generalization in neural networks. arXiv preprint arXiv:1806.07572.)
+
+[//]: # (+ Lee, J., Xiao, L., Schoenholz, S., Bahri, Y., Novak, R., Sohl-Dickstein, J., & Pennington, J. &#40;2019&#41;. Wide neural networks of any depth evolve as linear models under gradient descent. Advances in neural information processing systems, 32, 8572-8583.)
+
+[//]: # (+ Arora, S., Du, S., Hu, W., Li, Z., & Wang, R. &#40;2019, May&#41;. Fine-grained analysis of optimization and generalization for overparameterized two-layer neural networks. In International Conference on Machine Learning &#40;pp. 322-332&#41;. PMLR.)
+
+[//]: # (+ Arora, S., Du, S. S., Hu, W., Li, Z., Salakhutdinov, R., & Wang, R. &#40;2019&#41;. On exact computation with an infinitely wide neural net. arXiv preprint arXiv:1904.11955.)
+
+[//]: # (+ Hu, W., Li, Z., & Yu, D. &#40;2019&#41;. Simple and effective regularization methods for training on noisily labeled data with generalization guarantee. arXiv preprint arXiv:1905.11368.)
+
+[//]: # ()
+[//]: # (## Dynamic System and Deep Learning)
+
+[//]: # ()
+[//]: # (### Key papers)
+
+[//]: # (+ Weinan, E. &#40;2017&#41;. A proposal on machine learning via dynamical systems. Communications in Mathematics and Statistics, 5&#40;1&#41;, 1-11.)
+
+[//]: # (+ Li, Q., Chen, L., & Tai, C. &#40;2017&#41;. Maximum principle based algorithms for deep learning. arXiv preprint arXiv:1710.09513.)
+
+[//]: # (+ Parpas, P., & Muir, C. &#40;2019&#41;. Predict globally, correct locally: Parallel-in-time optimal control of neural networks. arXiv preprint arXiv:1902.02542.)
+
+[//]: # (+ Haber, E., & Ruthotto, L. &#40;2017&#41;. Stable architectures for deep neural networks. Inverse problems, 34&#40;1&#41;, 014004.)
+
+[//]: # (+ Lu, Y., Zhong, A., Li, Q., & Dong, B. &#40;2018, July&#41;. Beyond finite layer neural networks: Bridging deep architectures and numerical differential equations. In International Conference on Machine Learning &#40;pp. 3276-3285&#41;. PMLR.)
+
+[//]: # (+ Li, Z., & Shi, Z. &#40;2017&#41;. Deep residual learning and pdes on manifold. arXiv preprint arXiv:1708.05115.)
+
+[//]: # ()
+[//]: # ()
+[//]: # (## Dynamic View of Deep Learning)
+
+[//]: # ()
+[//]: # (### Key papers)
+
+[//]: # (+ Chen, R. T., Rubanova, Y., Bettencourt, J., & Duvenaud, D. &#40;2018&#41;. Neural ordinary differential equations. arXiv preprint arXiv:1806.07366.)
+
+[//]: # (+ Yan, H., Du, J., Tan, V. Y., & Feng, J. &#40;2019&#41;. On robustness of neural ordinary differential equations. arXiv preprint arXiv:1910.05513.)
+
+[//]: # (+ Gai, K., & Zhang, S. &#40;2021&#41;. A Mathematical Principle of Deep Learning: Learn the Geodesic Curve in the Wasserstein Space. arXiv preprint arXiv:2102.09235.)
+
+[//]: # (+ Thorpe, M., & van Gennip, Y. &#40;2018&#41;. Deep limits of residual neural networks. arXiv preprint arXiv:1810.11741.)
+
+[//]: # (+ Lu, Y., Ma, C., Lu, Y., Lu, J., & Ying, L. &#40;2020, November&#41;. A mean field analysis of deep ResNet and beyond: Towards provably optimization via overparameterization from depth. In International Conference on Machine Learning &#40;pp. 6426-6436&#41;. PMLR.)
+
+[//]: # ()
+[//]: # (## Generative Model)
+
+[//]: # ()
+[//]: # (### Key papers)
+
+[//]: # (+ Kingma, D. P., & Welling, M. &#40;2013&#41;. Auto-encoding variational bayes. arXiv preprint arXiv:1312.6114.)
+
+[//]: # (+ Goodfellow, I., Pouget-Abadie, J., Mirza, M., Xu, B., Warde-Farley, D., Ozair, S., ... & Bengio, Y. &#40;2014&#41;. Generative adversarial nets. Advances in neural information processing systems, 27.)
+
+[//]: # (+ Arjovsky, M., & Bottou, L. &#40;2017&#41;. Towards principled methods for training generative adversarial networks. arXiv preprint arXiv:1701.04862.)
+
+[//]: # (+ An, D., Guo, Y., Zhang, M., Qi, X., Lei, N., & Gu, X. &#40;2020, August&#41;. AE-OT-GAN: Training GANs from data specific latent distribution. In European Conference on Computer Vision &#40;pp. 548-564&#41;. Springer, Cham.)
+
+[//]: # (+ Arjovsky, M., Chintala, S., & Bottou, L. &#40;2017, July&#41;. Wasserstein generative adversarial networks. In International conference on machine learning &#40;pp. 214-223&#41;. PMLR.)
+
+[//]: # (+ Tolstikhin, I., Bousquet, O., Gelly, S., & Schoelkopf, B. &#40;2017&#41;. Wasserstein auto-encoders. arXiv preprint arXiv:1711.01558.)
+
+[//]: # (+ Lei, N., An, D., Guo, Y., Su, K., Liu, S., Luo, Z., ... & Gu, X. &#40;2020&#41;. A geometric understanding of deep learning. Engineering, 6&#40;3&#41;, 361-374.)
 
 
 
