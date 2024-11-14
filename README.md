@@ -13,7 +13,8 @@ The topics and the corresponding material are as follows:
   3. **Inductive Biases due to Dropout** [material](#Inductive-Biases-due-to-Dropout) [slides](./course_files/Lecture3.InductiveBiasesduetoDropout.pdf)
   4. **Tractable Landscapes for Nonconvex Optimization** [material](#Tractable-Landscapes-for-Nonconvex-Optimization) [slides](./course_files/Lecture4.TractableLandscapes.pdf)
   5. **Multilayer Convolutional Sparse Coding** [material](#Multilayer-Convolutional-Sparse-Coding) [slides](./course_files/Lecture5.FromSparseCodingtoDeepLearning.pdf)
-  6. to be updated...
+  6. **To be updated...**
+
 [//]: # (  6. **Vulnerability of Deep Neural Networks** [material]&#40;#Vulnerability-of-Deep-Neural-Networks&#41; [slides]&#40;./course_files/Lecture6.VulnerabilityofDeepNeuralNetworks.pdf&#41;)
 
 [//]: # (  7. **Information Bottleneck Theory** [material]&#40;#Information-Bottleneck-Theory&#41; [slides]&#40;./course_files/Lecture7.InformationBottleneckTheoryofDNNs.pdf&#41;)
