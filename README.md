@@ -118,6 +118,7 @@ The previous version of this course was taught in 2021. You can find it on [Deep
 
 ### Key papers
 
++ R. Shwartz Ziv and Y. LeCun. (2024). To compress or not to compressself-supervised learning and information theory: A review. Entropy.
 + Shwartz-Ziv, R., & Tishby, N. (2017). Opening the black box of deep neural networks via information arXiv preprint arXiv:1703.00810.
 + Tishby, N., Pereira, F. C., & Bialek, W. (2000). The information bottleneck method. arXiv preprint physics/0004057.
 + Tishby, N., & Zaslavsky, N. (2015, April). Deep learning and the information bottleneck principle. In 2015 IEEE Information Theory Workshop (ITW) (pp. 1-5). IEEE.
