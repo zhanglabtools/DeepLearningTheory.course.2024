@@ -13,7 +13,7 @@ The topics and the corresponding material are as follows:
   3. **Inductive Biases due to Dropout** [material](#Inductive-Biases-due-to-Dropout) [slides](./course_files/Lecture3.InductiveBiasesduetoDropout.pdf)
   4. **Tractable Landscapes for Nonconvex Optimization** [material](#Tractable-Landscapes-for-Nonconvex-Optimization) [slides](./course_files/Lecture4.TractableLandscapes.pdf)
   5. **From Sparse Coding to Deep Learning** [material](#From-Sparse-Coding-to-Deep-Learning) [slides](./course_files/Lecture5.FromSparseCodingtoDeepLearning.pdf)
-  6. **To be updated...**
+  6. **Information Bottleneck Theory View of DNNs** [material](#Information-Bottleneck-Theory) [slides](./course_files/Lecture6.InformationBottleneckViewofDNNs)
 
 [//]: # (  6. **Vulnerability of Deep Neural Networks** [material]&#40;#Vulnerability-of-Deep-Neural-Networks&#41; [slides]&#40;./course_files/Lecture6.VulnerabilityofDeepNeuralNetworks.pdf&#41;)
 
@@ -112,25 +112,19 @@ The previous version of this course was taught in 2021. You can find it on [Deep
 
 [//]: # (+ Rathore, P., Basak, A., Nistala, S. H., & Runkana, V. &#40;2020, July&#41;. Untargeted, Targeted and Universal Adversarial Attacks and Defenses on Time Series. In 2020 International Joint Conference on Neural Networks &#40;IJCNN&#41; &#40;pp. 1-8&#41;. IEEE.)
 
-[//]: # ()
-[//]: # (## Information Bottleneck Theory)
 
-[//]: # ()
-[//]: # (### Key papers)
+## Information Bottleneck Theory
 
-[//]: # (+ Shwartz-Ziv, R., & Tishby, N. &#40;2017&#41;. Opening the black box of deep neural networks via information. arXiv preprint arXiv:1703.00810.)
 
-[//]: # (+ Tishby, N., Pereira, F. C., & Bialek, W. &#40;2000&#41;. The information bottleneck method. arXiv preprint physics/0004057.)
+### Key papers
 
-[//]: # (+ Tishby, N., & Zaslavsky, N. &#40;2015, April&#41;. Deep learning and the information bottleneck principle. In 2015 IEEE Information Theory Workshop &#40;ITW&#41; &#40;pp. 1-5&#41;. IEEE.)
-
-[//]: # (+ Saxe, A. M., Bansal, Y., Dapello, J., Advani, M., Kolchinsky, A., Tracey, B. D., & Cox, D. D. &#40;2019&#41;. On the information bottleneck theory of deep learning. Journal of Statistical Mechanics: Theory and Experiment, 2019&#40;12&#41;, 124020.)
-
-[//]: # (+ Kolchinsky, A., Tracey, B. D., & Wolpert, D. H. &#40;2019&#41;. Nonlinear information bottleneck. Entropy, 21&#40;12&#41;, 1181.)
-
-[//]: # (+ Achille, A., & Soatto, S. &#40;2018&#41;. Information dropout: Learning optimal representations through noisy computation. IEEE transactions on pattern analysis and machine intelligence, 40&#40;12&#41;, 2897-2905.)
-
-[//]: # (+ Alemi, A. A., Fischer, I., Dillon, J. V., & Murphy, K. &#40;2016&#41;. Deep variational information bottleneck. arXiv preprint arXiv:1612.00410.)
++ Shwartz-Ziv, R., & Tishby, N. (2017). Opening the black box of deep neural networks via information arXiv preprint arXiv:1703.00810.
++ Tishby, N., Pereira, F. C., & Bialek, W. (2000). The information bottleneck method. arXiv preprint physics/0004057.
++ Tishby, N., & Zaslavsky, N. (2015, April). Deep learning and the information bottleneck principle. In 2015 IEEE Information Theory Workshop (ITW) (pp. 1-5). IEEE.
++ Saxe, A. M., Bansal, Y., Dapello, J., Advani, M., Kolchinsky, A., Tracey, B. D., & Cox, D. D. (2019). On the information bottleneck theory of deep learning. Journal of Statistical Mechanics: Theory and Experiment, 2019(12), 124020.
++ Kolchinsky, A., Tracey, B. D., & Wolpert, D. H. (2019). Nonlinear information bottleneck. Entropy, 21(12), 1181.
++ Achille, A., & Soatto, S. (2018). Information dropout: Learning optimal representations through noisy computation. IEEE transactions on pattern analysis and machine intelligence, 40(12), 2897-2905.
++ Alemi, A. A., Fischer, I., Dillon, J. V., & Murphy, K. (2016). Deep variational information bottleneck. arXiv preprint arXiv:1612.00410.
 
 [//]: # ()
 [//]: # (## Neural Tangent Kernel)
