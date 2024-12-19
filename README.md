@@ -15,7 +15,7 @@ The topics and the corresponding material are as follows:
   5. **From Sparse Coding to Deep Learning** [material](#From-Sparse-Coding-to-Deep-Learning) [slides](./course_files/Lecture5.FromSparseCodingtoDeepLearning.pdf)
   6. **Information Bottleneck Theory View of DNNs** [material](#Information-Bottleneck-Theory) [slides](./course_files/Lecture6.InformationBottleneckViewofDNNs.pdf)
   7. **Vulnerability of DNNs** [material](#Vulnerability-of-Deep-Neural-Networks) [slides](./course_files/Lecture7.VulnerabilityofDNNs.pdf)
-  8. **Neural Tangent Kernel** [material](#Neural-Tangent-Kerne) [slides](./course_files/Lecture8.NeuralTangentKernel.pdf)
+  8. **Neural Tangent Kernel** [material](#Neural-Tangent-Kernel) [slides](./course_files/Lecture8.NeuralTangentKernel.pdf)
   9. **Dynamic View of Deep Learning** [material](#Dynamic-System-and-Deep-Learning) [slides](./course_files/Lecture9.DynamicSystemandDeepLearning.pdf)
   
 [//]: # (  8. **Neural Tangent Kernel** [material]&#40;#Neural-Tangent-Kernel&#41; [slides]&#40;./course_files/Lecture8.NeuralTangentKernel.pdf&#41;)
