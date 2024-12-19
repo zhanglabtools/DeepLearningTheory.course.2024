@@ -199,7 +199,7 @@ The previous version of this course was taught in 2021. You can find it on [Deep
 
 [//]: # (+ Lei, N., An, D., Guo, Y., Su, K., Liu, S., Luo, Z., ... & Gu, X. &#40;2020&#41;. A geometric understanding of deep learning. Engineering, 6&#40;3&#41;, 361-374.)
 
-
+**Note.** If you have any questions or suggestions, you can raise an issue on GitHub or directly contact lixiayang@amss.ac.cn.
 
 
 
