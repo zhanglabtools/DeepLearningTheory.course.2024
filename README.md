@@ -14,11 +14,10 @@ The topics and the corresponding material are as follows:
   4. **Tractable Landscapes for Nonconvex Optimization** [material](#Tractable-Landscapes-for-Nonconvex-Optimization) [slides](./course_files/Lecture4.TractableLandscapes.pdf)
   5. **From Sparse Coding to Deep Learning** [material](#From-Sparse-Coding-to-Deep-Learning) [slides](./course_files/Lecture5.FromSparseCodingtoDeepLearning.pdf)
   6. **Information Bottleneck Theory View of DNNs** [material](#Information-Bottleneck-Theory) [slides](./course_files/Lecture6.InformationBottleneckViewofDNNs.pdf)
-
-[//]: # (  6. **Vulnerability of Deep Neural Networks** [material]&#40;#Vulnerability-of-Deep-Neural-Networks&#41; [slides]&#40;./course_files/Lecture6.VulnerabilityofDeepNeuralNetworks.pdf&#41;)
-
-[//]: # (  7. **Information Bottleneck Theory** [material]&#40;#Information-Bottleneck-Theory&#41; [slides]&#40;./course_files/Lecture7.InformationBottleneckTheoryofDNNs.pdf&#41;)
-
+  7. **Vulnerability of** [material](#Information-Bottleneck-Theory) [slides](./course_files/Lecture7.VulnerabilityofDNNs.pdf)
+  8. **Neural Tangent Kernel** [material](#Neural-Tangent-Kerne)[slides](./course_files/Lecture8.NeuralTangentKernel.pdf)
+  9. **Dynamic View of Deep Learning** [material](#Dynamic-System-and-Deep-Learning)[slides](./course_files/Lecture9.DynamicSystemandDeepLearning.pdf)
+  
 [//]: # (  8. **Neural Tangent Kernel** [material]&#40;#Neural-Tangent-Kernel&#41; [slides]&#40;./course_files/Lecture8.NeuralTangentKernel.pdf&#41;)
 
 [//]: # (  9. **Dynamic System and Deep Learning** [material]&#40;#Dynamic-System-and-Deep-Learning&#41; [slides]&#40;./course_files/Lecture9.DynamicSystemandDeepLearning.pdf&#41;)
@@ -95,23 +94,6 @@ The previous version of this course was taught in 2021. You can find it on [Deep
 + Pelt, D. M., & Sethian, J. A. (2018). A mixed-scale dense convolutional neural network for image analysis. Proceedings of the National Academy of Sciences, 115(2), 254-259.
 + Mingyang Li, Pengyuan Zhai, Shengbang Tong, Xingjian Gao, Shao-Lun Huang, Zhihui Zhu, Chong You, Yi Ma, et al. (2022). Revisiting sparse convolutional model for visual recognition, Advances in Neural Information Processing Systems 35. 10492–10504.
 
-[//]: # (## Vulnerability of Deep Neural Networks)
-
-[//]: # ()
-[//]: # (### Key papers)
-
-[//]: # (+ Fawzi, A., Fawzi, H., & Fawzi, O. &#40;2018&#41;. Adversarial vulnerability for any classifier. arXiv preprint arXiv:1802.08686.)
-
-[//]: # (+ Shafahi, A., Huang, W. R., Studer, C., Feizi, S., & Goldstein, T. &#40;2018&#41;. Are adversarial examples inevitable?. arXiv preprint arXiv:1809.02104.)
-
-[//]: # (+ Li, J., Ji, R., Liu, H., Liu, J., Zhong, B., Deng, C., & Tian, Q. &#40;2020&#41;. Projection & probability-driven black-box attack. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition &#40;pp. 362-371&#41;.)
-
-[//]: # (+ Li, Y., Li, L., Wang, L., Zhang, T., & Gong, B. &#40;2019, May&#41;. Nattack: Learning the distributions of adversarial examples for an improved black-box attack on deep neural networks. In International Conference on Machine Learning &#40;pp. 3866-3876&#41;. PMLR.)
-
-[//]: # (+ Wu, A., Han, Y., Zhang, Q., & Kuang, X. &#40;2019, July&#41;. Untargeted adversarial attack via expanding the semantic gap. In 2019 IEEE International Conference on Multimedia and Expo &#40;ICME&#41; &#40;pp. 514-519&#41;. IEEE.)
-
-[//]: # (+ Rathore, P., Basak, A., Nistala, S. H., & Runkana, V. &#40;2020, July&#41;. Untargeted, Targeted and Universal Adversarial Attacks and Defenses on Time Series. In 2020 International Joint Conference on Neural Networks &#40;IJCNN&#41; &#40;pp. 1-8&#41;. IEEE.)
-
 
 ## Information Bottleneck Theory
 
@@ -127,39 +109,57 @@ The previous version of this course was taught in 2021. You can find it on [Deep
 + Achille, A., & Soatto, S. (2018). Information dropout: Learning optimal representations through noisy computation. IEEE transactions on pattern analysis and machine intelligence, 40(12), 2897-2905.
 + Alemi, A. A., Fischer, I., Dillon, J. V., & Murphy, K. (2016). Deep variational information bottleneck. arXiv preprint arXiv:1612.00410.
 
-[//]: # ()
-[//]: # (## Neural Tangent Kernel)
 
-[//]: # ()
-[//]: # (### Key papers)
+## Vulnerability of Deep Neural Networks
 
-[//]: # (+ Jacot, A., Gabriel, F., & Hongler, C. &#40;2018&#41;. Neural tangent kernel: Convergence and generalization in neural networks. arXiv preprint arXiv:1806.07572.)
 
-[//]: # (+ Lee, J., Xiao, L., Schoenholz, S., Bahri, Y., Novak, R., Sohl-Dickstein, J., & Pennington, J. &#40;2019&#41;. Wide neural networks of any depth evolve as linear models under gradient descent. Advances in neural information processing systems, 32, 8572-8583.)
+### Key papers
 
-[//]: # (+ Arora, S., Du, S., Hu, W., Li, Z., & Wang, R. &#40;2019, May&#41;. Fine-grained analysis of optimization and generalization for overparameterized two-layer neural networks. In International Conference on Machine Learning &#40;pp. 322-332&#41;. PMLR.)
++ Fawzi, A., Fawzi, H., & Fawzi, O.(2018). Adversarial vulnerability for any classifier. arXiv preprint arXiv:1802.08686.
 
-[//]: # (+ Arora, S., Du, S. S., Hu, W., Li, Z., Salakhutdinov, R., & Wang, R. &#40;2019&#41;. On exact computation with an infinitely wide neural net. arXiv preprint arXiv:1904.11955.)
++ Shafahi, A., Huang, W. R., Studer, C., Feizi, S., & Goldstein, T. (2018). Are adversarial examples inevitable?. arXiv preprint arXiv:1809.02104.
 
-[//]: # (+ Hu, W., Li, Z., & Yu, D. &#40;2019&#41;. Simple and effective regularization methods for training on noisily labeled data with generalization guarantee. arXiv preprint arXiv:1905.11368.)
++ Li, J., Ji, R., Liu, H., Liu, J., Zhong, B., Deng, C., & Tian, Q. (2020). Projection & probability-driven black-box attack. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition &(pp. 362-371).
 
-[//]: # ()
-[//]: # (## Dynamic System and Deep Learning)
++ Li, Y., Li, L., Wang, L., Zhang, T., & Gong, B. (2019, May). Nattack: Learning the distributions of adversarial examples for an improved black-box attack on deep neural networks. In International Conference on Machine Learning (pp. 3866-3876). PMLR.
 
-[//]: # ()
-[//]: # (### Key papers)
++ Wu, A., Han, Y., Zhang, Q., & Kuang, X. (2019, July). Untargeted adversarial attack via expanding the semantic gap. In 2019 IEEE International Conference on Multimedia and Expo (ICME) (pp. 514-519). IEEE.
 
-[//]: # (+ Weinan, E. &#40;2017&#41;. A proposal on machine learning via dynamical systems. Communications in Mathematics and Statistics, 5&#40;1&#41;, 1-11.)
++ Rathore, P., Basak, A., Nistala, S. H., & Runkana, V. (2020, July). Untargeted, Targeted and Universal Adversarial Attacks and Defenses on Time Series. In 2020 International Joint Conference on Neural Networks (IJCNN) (pp. 1-8). IEEE.
 
-[//]: # (+ Li, Q., Chen, L., & Tai, C. &#40;2017&#41;. Maximum principle based algorithms for deep learning. arXiv preprint arXiv:1710.09513.)
 
-[//]: # (+ Parpas, P., & Muir, C. &#40;2019&#41;. Predict globally, correct locally: Parallel-in-time optimal control of neural networks. arXiv preprint arXiv:1902.02542.)
+## Neural Tangent Kernel
 
-[//]: # (+ Haber, E., & Ruthotto, L. &#40;2017&#41;. Stable architectures for deep neural networks. Inverse problems, 34&#40;1&#41;, 014004.)
 
-[//]: # (+ Lu, Y., Zhong, A., Li, Q., & Dong, B. &#40;2018, July&#41;. Beyond finite layer neural networks: Bridging deep architectures and numerical differential equations. In International Conference on Machine Learning &#40;pp. 3276-3285&#41;. PMLR.)
+### Key papers
 
-[//]: # (+ Li, Z., & Shi, Z. &#40;2017&#41;. Deep residual learning and pdes on manifold. arXiv preprint arXiv:1708.05115.)
++ Jacot, A., Gabriel, F., & Hongler, C. (2018). Neural tangent kernel: Convergence and generalization in neural networks. arXiv preprint arXiv:1806.07572.
+
++ Lee, J., Xiao, L., Schoenholz, S., Bahri, Y., Novak, R., Sohl-Dickstein, J., & Pennington, J. (2019). Wide neural networks of any depth evolve as linear models under gradient descent. Advances in neural information processing systems, 32, 8572-8583.
+
++ Arora, S., Du, S., Hu, W., Li, Z., & Wang, R. (2019, May). Fine-grained analysis of optimization and generalization for overparameterized two-layer neural networks. In International Conference on Machine Learning (pp. 322-332). PMLR.
+
++ Arora, S., Du, S. S., Hu, W., Li, Z., Salakhutdinov, R., & Wang, R. (2019). On exact computation with an infinitely wide neural net. arXiv preprint arXiv:1904.11955.
+
++ Hu, W., Li, Z., & Yu, D. (2019). Simple and effective regularization methods for training on noisily labeled data with generalization guarantee. arXiv preprint arXiv:1905.11368.
+
+
+## Dynamic System and Deep Learning
+
+
+### Key papers
+
++ Weinan, E. (2017). A proposal on machine learning via dynamical systems. Communications in Mathematics and Statistics, 5(1), 1-11.
+
++ Li, Q., Chen, L., & Tai, C. (2017). Maximum principle based algorithms for deep learning. arXiv preprint arXiv:1710.09513.
+
++ Parpas, P., & Muir, C. (2019). Predict globally, correct locally: Parallel-in-time optimal control of neural networks. arXiv preprint arXiv:1902.02542.
+
++ Haber, E., & Ruthotto, L.(2017);. Stable architectures for deep neural networks. Inverse problems, 34(1), 014004.
+
++ Lu, Y., Zhong, A., Li, Q., & Dong, B. (2018, July). Beyond finite layer neural networks: Bridging deep architectures and numerical differential equations. In International Conference on Machine Learning (pp. 3276-3285). PMLR.
+
++ Li, Z., & Shi, Z. (2017). Deep residual learning and pdes on manifold. arXiv preprint arXiv:1708.05115.
 
 [//]: # ()
 [//]: # ()
