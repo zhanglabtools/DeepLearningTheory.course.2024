@@ -18,6 +18,8 @@ The topics and the corresponding material are as follows:
   8. **Neural Tangent Kernel** [material](#Neural-Tangent-Kernel) [slides](./course_files/Lecture8.NeuralTangentKernel.pdf)
   9. **Dynamic View of Deep Learning** [material](#Dynamic-System-and-Deep-Learning) [slides](./course_files/Lecture9.DynamicSystemandDeepLearning.pdf)
   10. **Generative Model** [material](#Generative-Model) [slides](./course_files/Lecture10.GenerativeModels.pdf)
+  11. **Diffusion Model and Flow Matching** [material](#Diffusion-Model-and-Flow-Matching) [slides](./course_files/Lecture11.DiffusionModelandFlowMatching.pdf)
+  12. **Large Language Model** [material](#Large-Language-Model) [slides](./course_files/Lecture12.LargeLanguageModel.pdf)
   
 [//]: # (  8. **Neural Tangent Kernel** [material]&#40;#Neural-Tangent-Kernel&#41; [slides]&#40;./course_files/Lecture8.NeuralTangentKernel.pdf&#41;)
 
